@@ -140,7 +140,7 @@ public:
 
         postorder(ptr->leftchild);
         postorder(ptr->rightchild);
-        cout << ptr->info << " "; // parent
+        cout << ptr->info << " ";  // parent
     }
     
 };
